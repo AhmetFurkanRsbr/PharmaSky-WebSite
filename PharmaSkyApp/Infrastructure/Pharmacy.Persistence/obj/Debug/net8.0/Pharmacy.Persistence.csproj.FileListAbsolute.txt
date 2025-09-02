@@ -15,3 +15,4 @@ C:\Users\HP\Desktop\Bahçelievler Belediyesi Staj\Staj Süreci\Proje\PharmaSky_W
 C:\Users\HP\Desktop\Bahçelievler Belediyesi Staj\Staj Süreci\Proje\PharmaSky_WebApp\PharmaSkyApp\Infrastructure\Pharmacy.Persistence\obj\Debug\net8.0\Pharmacy.Persistence.pdb
 C:\Users\HP\Desktop\Bahçelievler Belediyesi Staj\Staj Süreci\Proje\PharmaSky_WebApp\PharmaSkyApp\Infrastructure\Pharmacy.Persistence\obj\Debug\net8.0\Pharmacy.Persistence.genruntimeconfig.cache
 C:\Users\HP\Desktop\Bahçelievler Belediyesi Staj\Staj Süreci\Proje\PharmaSky_WebApp\PharmaSkyApp\Infrastructure\Pharmacy.Persistence\obj\Debug\net8.0\ref\Pharmacy.Persistence.dll
+C:\Users\HP\Desktop\Bahçelievler Belediyesi Staj\Staj Süreci\Proje\PharmaSky_WebApp\PharmaSkyApp\Infrastructure\Pharmacy.Persistence\obj\Debug\net8.0\Pharmacy.Persistence.sourcelink.json

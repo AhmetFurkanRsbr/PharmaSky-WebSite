@@ -8,17 +8,17 @@
         "DebugTarget": "https"
       },
       {
-        "Path": "AuthAPI\\AuthAPI.csproj",
+        "Path": "Presentation\\AuthAPI\\AuthAPI.csproj",
         "Action": "Start",
         "DebugTarget": "https"
       },
       {
-        "Path": "WeatherAPI\\WeatherAPI.csproj",
+        "Path": "Presentation\\PharmacyAPI\\PharmacyAPI.csproj",
         "Action": "Start",
         "DebugTarget": "https"
       },
       {
-        "Path": "PharmacyAPI\\PharmacyAPI.csproj",
+        "Path": "Presentation\\WeatherAPI\\WeatherAPI.csproj",
         "Action": "Start",
         "DebugTarget": "https"
       }

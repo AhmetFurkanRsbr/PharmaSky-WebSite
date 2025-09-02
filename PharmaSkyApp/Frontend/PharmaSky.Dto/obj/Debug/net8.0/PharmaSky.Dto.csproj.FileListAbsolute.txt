@@ -12,3 +12,4 @@ C:\Users\HP\Desktop\Bahçelievler Belediyesi Staj\Staj Süreci\Proje\PharmaSky_W
 C:\Users\HP\Desktop\Bahçelievler Belediyesi Staj\Staj Süreci\Proje\PharmaSky_WebApp\PharmaSkyApp\Frontend\PharmaSky.Dto\obj\Debug\net8.0\PharmaSky.Dto.pdb
 C:\Users\HP\Desktop\Bahçelievler Belediyesi Staj\Staj Süreci\Proje\PharmaSky_WebApp\PharmaSkyApp\Frontend\PharmaSky.Dto\obj\Debug\net8.0\PharmaSky.Dto.genruntimeconfig.cache
 C:\Users\HP\Desktop\Bahçelievler Belediyesi Staj\Staj Süreci\Proje\PharmaSky_WebApp\PharmaSkyApp\Frontend\PharmaSky.Dto\obj\Debug\net8.0\ref\PharmaSky.Dto.dll
+C:\Users\HP\Desktop\Bahçelievler Belediyesi Staj\Staj Süreci\Proje\PharmaSky_WebApp\PharmaSkyApp\Frontend\PharmaSky.Dto\obj\Debug\net8.0\PharmaSky.Dto.sourcelink.json

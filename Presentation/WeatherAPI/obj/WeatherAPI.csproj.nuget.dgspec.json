@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HP\\Desktop\\Bahçelievler Belediyesi Staj\\Staj Süreci\\Proje\\PharmaSky_WebApp\\WeatherAPI\\WeatherAPI.csproj": {}
+    "C:\\Users\\HP\\Desktop\\Bahçelievler Belediyesi Staj\\Staj Süreci\\Proje\\PharmaSky_WebApp\\Presentation\\WeatherAPI\\WeatherAPI.csproj": {}
   },
   "projects": {
     "C:\\Users\\HP\\Desktop\\Bahçelievler Belediyesi Staj\\Staj Süreci\\Proje\\PharmaSky_WebApp\\PharmaSkyApp\\Core\\PharmaSky.Domain\\PharmaSky.Domain.csproj": {
@@ -194,14 +194,14 @@
         }
       }
     },
-    "C:\\Users\\HP\\Desktop\\Bahçelievler Belediyesi Staj\\Staj Süreci\\Proje\\PharmaSky_WebApp\\WeatherAPI\\WeatherAPI.csproj": {
+    "C:\\Users\\HP\\Desktop\\Bahçelievler Belediyesi Staj\\Staj Süreci\\Proje\\PharmaSky_WebApp\\Presentation\\WeatherAPI\\WeatherAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP\\Desktop\\Bahçelievler Belediyesi Staj\\Staj Süreci\\Proje\\PharmaSky_WebApp\\WeatherAPI\\WeatherAPI.csproj",
+        "projectUniqueName": "C:\\Users\\HP\\Desktop\\Bahçelievler Belediyesi Staj\\Staj Süreci\\Proje\\PharmaSky_WebApp\\Presentation\\WeatherAPI\\WeatherAPI.csproj",
         "projectName": "WeatherAPI",
-        "projectPath": "C:\\Users\\HP\\Desktop\\Bahçelievler Belediyesi Staj\\Staj Süreci\\Proje\\PharmaSky_WebApp\\WeatherAPI\\WeatherAPI.csproj",
+        "projectPath": "C:\\Users\\HP\\Desktop\\Bahçelievler Belediyesi Staj\\Staj Süreci\\Proje\\PharmaSky_WebApp\\Presentation\\WeatherAPI\\WeatherAPI.csproj",
         "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP\\Desktop\\Bahçelievler Belediyesi Staj\\Staj Süreci\\Proje\\PharmaSky_WebApp\\WeatherAPI\\obj\\",
+        "outputPath": "C:\\Users\\HP\\Desktop\\Bahçelievler Belediyesi Staj\\Staj Süreci\\Proje\\PharmaSky_WebApp\\Presentation\\WeatherAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

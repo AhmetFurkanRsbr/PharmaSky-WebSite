@@ -13,7 +13,6 @@
           "Microsoft.EntityFrameworkCore.Design": "9.0.8",
           "Microsoft.EntityFrameworkCore.SqlServer": "9.0.8",
           "Microsoft.EntityFrameworkCore.Tools": "9.0.8",
-          "PharmaSky.Dto": "1.0.0",
           "Pharmacy.Persistence": "1.0.0",
           "Swashbuckle.AspNetCore": "6.6.2"
         },
@@ -1115,19 +1114,6 @@
             "fileVersion": "1.0.0.0"
           }
         }
-      },
-      "PharmaSky.Dto/1.0.0": {
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore": "9.0.8",
-          "Microsoft.EntityFrameworkCore.Relational": "9.0.8",
-          "Microsoft.EntityFrameworkCore.SqlServer": "9.0.8"
-        },
-        "runtime": {
-          "PharmaSky.Dto.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
       }
     }
   },
@@ -1717,11 +1703,6 @@
       "sha512": ""
     },
     "PharmaSky.Domain/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "PharmaSky.Dto/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

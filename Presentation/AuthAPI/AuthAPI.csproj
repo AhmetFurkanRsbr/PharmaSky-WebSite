@@ -22,8 +22,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\PharmaSkyApp\Frontend\PharmaSky.Dto\PharmaSky.Dto.csproj" />
-    <ProjectReference Include="..\PharmaSkyApp\Infrastructure\Pharmacy.Persistence\Pharmacy.Persistence.csproj" />
+    <ProjectReference Include="..\..\PharmaSkyApp\Infrastructure\Pharmacy.Persistence\Pharmacy.Persistence.csproj" />
   </ItemGroup>
 
 </Project>

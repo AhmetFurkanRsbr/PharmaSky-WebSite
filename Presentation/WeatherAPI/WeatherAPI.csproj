@@ -12,7 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\PharmaSkyApp\Infrastructure\Pharmacy.Persistence\Pharmacy.Persistence.csproj" />
+    <ProjectReference Include="..\..\PharmaSkyApp\Infrastructure\Pharmacy.Persistence\Pharmacy.Persistence.csproj" />
   </ItemGroup>
 
 </Project>

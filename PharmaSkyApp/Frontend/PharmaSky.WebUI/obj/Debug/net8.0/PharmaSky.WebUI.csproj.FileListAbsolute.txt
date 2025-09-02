@@ -176,3 +176,4 @@ C:\Users\HP\Desktop\Bahçelievler Belediyesi Staj\Staj Süreci\Proje\PharmaSky_W
 C:\Users\HP\Desktop\Bahçelievler Belediyesi Staj\Staj Süreci\Proje\PharmaSky_WebApp\PharmaSkyApp\Frontend\PharmaSky.WebUI\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 C:\Users\HP\Desktop\Bahçelievler Belediyesi Staj\Staj Süreci\Proje\PharmaSky_WebApp\PharmaSkyApp\Frontend\PharmaSky.WebUI\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 C:\Users\HP\Desktop\Bahçelievler Belediyesi Staj\Staj Süreci\Proje\PharmaSky_WebApp\PharmaSkyApp\Frontend\PharmaSky.WebUI\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\HP\Desktop\Bahçelievler Belediyesi Staj\Staj Süreci\Proje\PharmaSky_WebApp\PharmaSkyApp\Frontend\PharmaSky.WebUI\obj\Debug\net8.0\PharmaSky.WebUI.sourcelink.json

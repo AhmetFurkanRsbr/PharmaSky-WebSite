@@ -3035,18 +3035,18 @@
     },
     "Pharmacy.Persistence/1.0.0": {
       "type": "project",
-      "path": "../PharmaSkyApp/Infrastructure/Pharmacy.Persistence/Pharmacy.Persistence.csproj",
-      "msbuildProject": "../PharmaSkyApp/Infrastructure/Pharmacy.Persistence/Pharmacy.Persistence.csproj"
+      "path": "../../PharmaSkyApp/Infrastructure/Pharmacy.Persistence/Pharmacy.Persistence.csproj",
+      "msbuildProject": "../../PharmaSkyApp/Infrastructure/Pharmacy.Persistence/Pharmacy.Persistence.csproj"
     },
     "PharmaSky.Domain/1.0.0": {
       "type": "project",
-      "path": "../PharmaSkyApp/Core/PharmaSky.Domain/PharmaSky.Domain.csproj",
-      "msbuildProject": "../PharmaSkyApp/Core/PharmaSky.Domain/PharmaSky.Domain.csproj"
+      "path": "../../PharmaSkyApp/Core/PharmaSky.Domain/PharmaSky.Domain.csproj",
+      "msbuildProject": "../../PharmaSkyApp/Core/PharmaSky.Domain/PharmaSky.Domain.csproj"
     },
     "PharmaSky.Dto/1.0.0": {
       "type": "project",
-      "path": "../PharmaSkyApp/Frontend/PharmaSky.Dto/PharmaSky.Dto.csproj",
-      "msbuildProject": "../PharmaSkyApp/Frontend/PharmaSky.Dto/PharmaSky.Dto.csproj"
+      "path": "../../PharmaSkyApp/Frontend/PharmaSky.Dto/PharmaSky.Dto.csproj",
+      "msbuildProject": "../../PharmaSkyApp/Frontend/PharmaSky.Dto/PharmaSky.Dto.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -3064,11 +3064,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HP\\Desktop\\Bahçelievler Belediyesi Staj\\Staj Süreci\\Proje\\PharmaSky_WebApp\\PharmacyAPI\\PharmacyAPI.csproj",
+      "projectUniqueName": "C:\\Users\\HP\\Desktop\\Bahçelievler Belediyesi Staj\\Staj Süreci\\Proje\\PharmaSky_WebApp\\Presentation\\PharmacyAPI\\PharmacyAPI.csproj",
       "projectName": "PharmacyAPI",
-      "projectPath": "C:\\Users\\HP\\Desktop\\Bahçelievler Belediyesi Staj\\Staj Süreci\\Proje\\PharmaSky_WebApp\\PharmacyAPI\\PharmacyAPI.csproj",
+      "projectPath": "C:\\Users\\HP\\Desktop\\Bahçelievler Belediyesi Staj\\Staj Süreci\\Proje\\PharmaSky_WebApp\\Presentation\\PharmacyAPI\\PharmacyAPI.csproj",
       "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\HP\\Desktop\\Bahçelievler Belediyesi Staj\\Staj Süreci\\Proje\\PharmaSky_WebApp\\PharmacyAPI\\obj\\",
+      "outputPath": "C:\\Users\\HP\\Desktop\\Bahçelievler Belediyesi Staj\\Staj Süreci\\Proje\\PharmaSky_WebApp\\Presentation\\PharmacyAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
