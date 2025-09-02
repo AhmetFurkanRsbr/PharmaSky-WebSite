@@ -1,0 +1,113 @@
+﻿@{
+    ViewData["Title"] = "Ana Sayfa";
+    Layout = null;
+}
+
+
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>PharmaSky Anasayfa</title>
+    <meta name="description" content="PharmaSky ile nöbetçi eczaneleri ve hava durumunu görüntüleyin.">
+    <meta name="keywords" content="eczane, nöbetçi eczane, hava durumu, sağlık, pharma, pharmacy">
+
+    <link href="~/lib/Kelly-1.0.0/assets/img/favicon.png" rel="icon">
+    <link href="~/lib/Kelly-1.0.0/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/swiper@11.1.1/swiper-bundle.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/glightbox@3.3.0/dist/css/glightbox.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link href="~/css/homepageStyle.css" rel="stylesheet">
+
+    
+</head>
+
+<body class="index-page" style="overflow: hidden">
+    
+    <header id="header" class="header d-flex align-items-center light-background sticky-top">
+        <div class="container-fluid position-relative d-flex align-items-center justify-content-between">
+            <a href="/" class="logo d-flex align-items-center me-auto me-xl-0">
+                <h1 class="sitename">PharmaSky</h1>
+            </a>
+
+            <nav id="navmenu" class="navmenu">
+                <ul>
+                    <li><a href="/Home/Index" class="active"><i class="bi bi-house"></i> Anasayfa</a></li>
+                    <li><a href="/Weather/Index"><i class="bi bi-cloud-sun"></i> Hava Durumu</a></li>
+                    <li><a href="/Pharmacy/Index"><i class="bi bi-hospital"></i> Nöbetçi Eczane</a></li>
+                </ul>
+            </nav>
+            @{
+                // "access_token" çerezinin varlığını sunucu tarafında kontrol edin
+                var accessToken = Context.Request.Cookies["access_token"];
+
+                @if (string.IsNullOrEmpty(accessToken))
+                {
+                    <a href="/Login/Index" id="loginButtonContainer" class="btn-login-cta login-button-Left-Top">Giriş Yap</a>
+                    <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+                }
+                else
+                {
+                    <div class="dropdown">
+                        <a class="nav-link nav-item dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fas fa-user-circle" style="color:cornflowerblue; font-size: 35px;"></i>
+                        </a>
+
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <li><a id="userName" class="dropdown-item " >Kullanıcı Adı</a></li>
+                            <li><a id="role" class="dropdown-item">Yetki</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="/Login/Logout">Çıkış Yap</a></li>
+                        </ul>
+                    </div>
+                }
+            }
+        </div>
+    </header>
+
+    <main class="main">
+        <section id="hero" class="hero section">
+            <div class="hero-overlay"></div>
+            <img src="~/lib/images/homepage-images/homepageBackgroundImage.jpg" alt="PharmaSky Arka Plan" data-aos="fade-in">
+
+            <div class="container text-center" data-aos="zoom-out" data-aos-delay="100">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <h2>PharmaSky</h2>
+                        <p>Nöbetçi eczaneleri görüntüleyebilir, Hava durumuna göz atabilirsiniz.</p>
+                        <a href="/Login/Index" class="btn-get-started animate__animated animate__pulse animate__infinite">Giriş Yap</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+    <div id="preloader"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
+    <script src="https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.min.js"></script>
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+
+    <script src="~/js/homepageScript.js"></script>
+</body>
+
+</html>

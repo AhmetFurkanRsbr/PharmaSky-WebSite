@@ -1,0 +1,150 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "PharmacyAPI",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/Pharmacies/GetPharmaciesByCountyId/{countyId}": {
+      "get": {
+        "tags": [
+          "Pharmacies"
+        ],
+        "parameters": [
+          {
+            "name": "countyId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Pharmacies/GetAllPharmacies": {
+      "get": {
+        "tags": [
+          "Pharmacies"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Pharmacies/GetAllCounties": {
+      "get": {
+        "tags": [
+          "Pharmacies"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/County"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/County"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/County"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "County": {
+        "type": "object",
+        "properties": {
+          "countyId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "countyName": {
+            "type": "string",
+            "nullable": true
+          },
+          "onCallPharmacies": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/OnCallPharmacy"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "OnCallPharmacy": {
+        "type": "object",
+        "properties": {
+          "pharmacyId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "address": {
+            "type": "string",
+            "nullable": true
+          },
+          "phone": {
+            "type": "string",
+            "nullable": true
+          },
+          "countyId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "distance": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "securitySchemes": {
+      "Bearer": {
+        "type": "apiKey",
+        "description": "JWT Authorization header using the Bearer scheme. Example: \"Authorization: Bearer {token}\"",
+        "name": "Authorization",
+        "in": "header"
+      }
+    }
+  },
+  "security": [
+    {
+      "Bearer": [ ]
+    }
+  ]
+}

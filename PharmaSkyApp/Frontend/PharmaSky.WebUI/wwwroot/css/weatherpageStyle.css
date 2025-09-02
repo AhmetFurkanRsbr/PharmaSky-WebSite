@@ -1,0 +1,148 @@
+﻿html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    background-color: transparent !important; /* Arka planı şeffaf yapar. */
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    /* Bu satırı kaldırın veya yoruma alın: */
+    /* background-color: #f0f2f5; */
+}
+/* Partikül animasyonu için stil */
+#particles-js {
+    position: fixed; /* Ekranı sabitler, kullanıcı aşağı kaysa bile görünür kalır. */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* En kritik kısım! Partikülleri diğer tüm içeriklerin (menü, arama kutusu vb.) arkasına gönderir. */
+    background-color: #0d1a29; /* Opsiyonel: Arka plan rengini belirler. */
+}
+
+
+.weather-section {
+    padding: 80px 0;
+}
+
+.weather-search-box {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+    .weather-search-box h2 {
+        font-size: 28px;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+
+    .weather-search-box p {
+        color: #6c757d;
+    }
+
+    .weather-search-box .input-group .form-control {
+        border-radius: 50px 0 0 50px;
+        border: 1px solid #dee2e6;
+        padding: 10px 20px;
+    }
+
+    .weather-search-box .input-group .btn-primary {
+        border-radius: 0 50px 50px 0;
+        background-color: var(--accent-color);
+        border-color: var(--accent-color);
+        font-weight: 500;
+    }
+
+        .weather-search-box .input-group .btn-primary:hover {
+            background-color: color-mix(in srgb, var(--accent-color), transparent 20%);
+            border-color: color-mix(in srgb, var(--accent-color), transparent 20%);
+        }
+
+.weather-card {
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+    padding: 30px;
+    border: none;
+}
+
+    .weather-card .weather-icon img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .weather-card h3 {
+        font-size: 36px;
+        font-weight: 700;
+        color: #333;
+    }
+
+    .weather-card h1 {
+        color: #34b7a7;
+        margin: 10px 0;
+    }
+
+    .weather-card .weather-details p {
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 0;
+    }
+
+    .weather-card .weather-details small {
+        color: #888;
+    }
+
+.weather-details i {
+    font-size: 24px;
+    color: #34b7a7;
+    margin-bottom: 5px;
+}
+
+.forecast-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease;
+    height: 100%; /* Kartların aynı boyutta olmasını sağlar */
+    border: none;
+}
+
+    .forecast-card:hover {
+        transform: translateY(-5px);
+    }
+
+    .forecast-card h5 {
+        font-size: 18px;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+
+    .forecast-card img {
+        width: 60px;
+        height: 60px;
+        margin: 5px 0;
+    }
+
+    .forecast-card p {
+        font-size: 16px;
+        margin-top: 5px;
+        margin-bottom: 0;
+    }
+
+    .forecast-card .max-temp {
+        color: #df1529; /* Kırmızı renk */
+        font-weight: 600;
+    }
+
+    .forecast-card .min-temp {
+        color: #34b7a7; /* Mavi renk */
+        font-weight: 600;
+    }

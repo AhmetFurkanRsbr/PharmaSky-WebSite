@@ -1,0 +1,48 @@
+[
+  {
+    "ContainingType": "PharmacyAPI.Controllers.PharmaciesController",
+    "Method": "GetCounties",
+    "RelativePath": "api/Pharmacies/GetAllCounties",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[PharmaSky.Domain.Entities.County, PharmaSky.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PharmacyAPI.Controllers.PharmaciesController",
+    "Method": "GetAllPharmacies",
+    "RelativePath": "api/Pharmacies/GetAllPharmacies",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PharmacyAPI.Controllers.PharmaciesController",
+    "Method": "GetPharmacies",
+    "RelativePath": "api/Pharmacies/GetPharmaciesByCountyId/{countyId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "countyId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
